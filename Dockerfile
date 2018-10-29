@@ -31,4 +31,4 @@ RUN echo $USER_NAME && \
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["/bin/bash", "/app/.docker/yarn/startup.sh"]
+CMD ["/bin/bash", "/app/vendor/softspring/docker-yarn-encore-dev/startup.sh"]
