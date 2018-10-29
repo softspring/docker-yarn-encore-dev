@@ -1,0 +1,6 @@
+{
+    "name": "softspring/docker-yarn-encore-dev",
+    "type": "library",
+    "description": "Docker yarn container for webpack",
+    "license": "MIT"
+}
